@@ -24,21 +24,21 @@
 	var DSF_audio_stimuli = [  // audio recording of each items, read at a peace of 1 number per second 
 		//these items are a random strings of numbers, increasing by one number every two items. 
 		// if willing to use different items, upload you audio files in your task folder and change the files below with the names your own files. 
-     { stimulus: "DSF_1.1.wav"},
-     { stimulus: "DSF_1.2.wav"}, 
-	 { stimulus: "DSF_2.2.wav"}, 
-	 { stimulus: "DSF_3.1.wav"}, 
-	 { stimulus: "DSF_3.2.wav"}, 
-	 { stimulus: "DSF_4.1.wav"}, 
-	 { stimulus: "DSF_4.2.wav"}, 
-	 { stimulus: "DSF_5.1.wav"}, 
-	 { stimulus: "DSF_5.2.wav"}, 
-	 { stimulus: "DSF_6.1.wav"}, 
-	 { stimulus: "DSF_6.2.wav"}, 
-	 { stimulus: "DSF_7.1.wav"}, 
-	 { stimulus: "DSF_7.2.wav"}, 
-   	 { stimulus: "DSF_8.1.wav"}, 
-   	 { stimulus: "DSF_8.2.wav"}	
+     { stimulus: "https://damienenac.github.io/Digit/DSF_1.1.wav"},
+     { stimulus: "https://damienenac.github.io/Digit/DSF_1.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_2.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_3.1.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_3.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_4.1.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_4.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_5.1.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_5.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_6.1.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_6.2.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_7.1.wav"}, 
+	 { stimulus: "https://damienenac.github.io/Digit/DSF_7.2.wav"}, 
+   	 { stimulus: "https://damienenac.github.io/Digit/DSF_8.1.wav"}, 
+   	 { stimulus: "https://damienenac.github.io/Digit/DSF_8.2.wav"}		
 	 ];
  
  	var DSF_audio_display = { // variable that will read the DSF audio
@@ -75,25 +75,25 @@
 	
 
 // Put all the audios and images under the same variable.  
-var audio = ['DSF_1.1.wav', 
-		'DSF_1.2.wav', 
-		'DSF_2.1.wav', 
-		'DSF_2.2.wav', 
-		'DSF_3.1.wav', 
-		'DSF_3.2.wav', 
-		'DSF_4.1.wav', 
-		'DSF_4.2.wav', 
-		'DSF_5.1.wav', 
-		'DSF_5.2.wav', 
-		'DSF_6.1.wav', 
-		'DSF_6.2.wav', 
-		'DSF_7.1.wav', 
-		'DSF_7.2.wav',
-		'DSF_8.1.wav', 
-		'DSF_8.2.wav'
+var audio = ['https://damienenac.github.io/Digit/DSF_1.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_1.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_2.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_2.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_3.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_3.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_4.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_4.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_5.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_5.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_6.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_6.2.wav', 
+		'https://damienenac.github.io/Digit/DSF_7.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_7.2.wav',
+		'https://damienenac.github.io/Digit/DSF_8.1.wav', 
+		'https://damienenac.github.io/Digit/DSF_8.2.wav'
 ];
  
-var images = ['Speak.png'
+var images = ['https://damienenac.github.io/Digit/Speak.png'
 ];
 
  
