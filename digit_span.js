@@ -102,6 +102,7 @@ jsPsych.init({
     preload_audio: audio, // better to load all external files before the experiment starts
 	preload_images: images,
 	max_load_time: 120000,
+    display_element: 'display_stage',
 	on_finish:  function() {
     jsPsych.data.displayData();
   }
